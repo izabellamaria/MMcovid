@@ -1,5 +1,5 @@
 #Direcionado o R para o Diretorio a ser trabalhado
-setwd('C:/Users/User/Desktop')
+setwd('C:/Users/Desktop')
 
 #Limpa o Ambiente Global
 rm(list=ls())
@@ -70,7 +70,7 @@ library(DT)
 
 
 #Entrando dados
-dados <- read_excel("C:/Users/User/Desktop/obitos.xlsx")
+dados <- read_excel("C:/Users/obitos.xlsx")
 attach(dados)
 
 
